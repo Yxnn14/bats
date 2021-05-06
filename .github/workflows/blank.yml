@@ -18,4 +18,4 @@ jobs:
         run: ls
 
       - name: Test
-        run: bats/bat.bat
+        run: bat.bat
