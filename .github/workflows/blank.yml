@@ -10,11 +10,12 @@ jobs:
         uses: mig4/setup-bats@v1
         with:
           bats-version: 1.2.1
-      - name: 1stTest
-        run: ls
 
       - name: Check out code
         uses: actions/checkout@v1
+      
+      - name: 1stTest
+        run: ls
 
       - name: Test
         run: bats/bat.bat
